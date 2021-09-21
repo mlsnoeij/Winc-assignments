@@ -1,0 +1,50 @@
+header{
+    background-color:rgb(37, 20, 78);
+        border: 5px ridge white;
+        height: 5rem;
+        font-size: 16;
+                     }
+header a{color:thistle;
+font-size: 36px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#selected{ 
+    background-color: rgb(128, 23, 128);
+}
+
+body{
+    background-image: url(IMG_20210906_072548.jpg);
+    background-size:2000px;
+    background-position: top;
+    background-repeat: no-repeat;
+    color:rgb(57, 71, 56);
+}
+
+.maintext{
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color:rgb(37, 20, 78)
+}
+
+h2{
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px
+        
+}
+
+#profielfoto{
+    height: 350px;
+    border:8px ridge grey;
+    position:fixed;
+    right:50px;
+
+
+}
+footer{
+    color:white;
+    position:fixed;
+    right:0;
+    bottom:0;
+}
