@@ -95,38 +95,28 @@ footer{
      background-color:ivory;
      color:lightslategrey; 
      background-size:2000px;
-     line-height:20px
-       
-}
+     line-height:20px}
 
 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 28px;
     margin:0 auto;
     margin-top: 25px;
-    width: 50%;
-          
-}}
+    width: 50%;    }     
 
-@media (min-width: 1024px) {
- .maintext {
+.maintext {
     margin: 100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
         color: black;
     padding: 25px;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.5;}
         
-  }}
-
-@media (min-width: 1024px) {
-#profielfoto{
+  #profielfoto{
     height: 350px;
     border:8px ridge grey;
     margin-left: 200px;
    
-
-
 
 }}
