@@ -1,0 +1,131 @@
+
+body{
+    background-image: url(IMG_20210906_072548.jpg);
+    background-size:1000px;
+    background-position: top;
+    background-repeat:no-repeat;
+    
+}
+
+
+header{
+    background-color: darkslategray;
+        border: 5px ridge lightslategrey;
+        height: 2.5rem;
+        font-size: 16;
+        position: relative;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%
+                                 }
+header a{color: lightgrey;
+font-size: 36px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#selected{ 
+    background-color:#d2d8d83d;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0
+
+}
+
+.menu li {
+    display:inline;
+        
+}
+
+.menu a{ 
+    text-decoration: none;
+        
+}
+
+.menu a:hover{
+    background-color: purple
+}
+
+
+main{
+    border: 5px double rgba(255, 255, 255, 0.308);
+    margin: 10px
+}
+.maintext {
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: black;
+    padding: 10px;
+    background-color: white;
+    opacity: 0.5;
+    
+    
+  }
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    margin-left: 15px;
+    margin-top: 25px;
+ 
+    
+        
+}
+
+#profielfoto{
+    height: 350px;
+    border:8px ridge grey;
+    margin: 50px;
+    margin-left: 20px;
+
+
+}
+footer{
+    color:white;
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+
+@media (min-width: 1024px) {
+ body{
+     background-color:ivory;
+     color:lightslategrey; 
+     background-size:2000px;
+       
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    margin:0 auto;
+    margin-top: 25px;
+    width: 50%;
+          
+}}
+
+@media (min-width: 1024px) {
+ .maintext {
+    margin: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    padding: 25px;
+    background-color: white;
+    opacity: 0.5;
+        
+  }}
+
+@media (min-width: 1024px) {
+#profielfoto{
+    height: 350px;
+    border:8px ridge grey;
+    margin-left: 200px;
+   
+
+
+
+}}
