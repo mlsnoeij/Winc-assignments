@@ -1,0 +1,525 @@
+body{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 5px 5px 0px ;
+}
+
+h1 {
+    margin:0;
+    font-size: 28px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size:24px;
+}
+
+header{
+    margin-bottom:50px;
+}
+
+.tekst{
+    margin: 5px 5px 20px 15px;
+    text-align:left;
+}
+
+.nav {
+    text-align: left; 
+    margin: 0; 
+}
+
+.logo{
+    background-color:rgb(24, 62, 100);
+    color: white;
+    padding: 15px;
+}
+
+.nav label{
+    margin: 0 10px 0 0; 
+    font-size: 36px;
+    line-height: 70px;
+    text-align: right;
+    cursor: pointer;
+    position:absolute;
+    right:2px;
+    top: 35px;
+}
+
+.menu{
+    display: none;
+    background-color: white;
+}
+    
+.menu a {
+    display: block;
+    text-decoration: none;
+    font-size: 28px;
+    text-align: left;
+}
+
+.menu a:visited {
+    color: black;
+}
+    
+.menu a:hover{
+    background-color: lightslategray;
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .menu{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 95px;
+}
+
+.banner{
+    background-image:url(Images/aron-marinelli-uDqGWiFiL84-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size: 1024px;
+    background-position:center;
+    width: 100%;
+    height: 250px; 
+    margin: 0; 
+    line-height: 220px;
+    text-align: center; 
+}
+
+.blueback{
+    background-color: rgb(24, 62, 100);
+    color:white;
+    margin-top:30px;
+    padding-bottom: 20px;
+    
+}
+
+.huizen{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.imghuis{
+    width: 90%;
+    margin:auto;
+}
+
+.adres{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    font-weight:bold;
+    line-height:0.5em;
+}
+
+.prijs{
+    font-size: 18px;
+}
+
+.reviews {
+    text-align: right;
+    margin-right: 20px;
+    float:right;
+    margin-bottom: 50px;
+}
+
+.reviews2 {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.imgreview {
+    width: 50%;
+    height: 50%;
+    border-radius:50%;
+    float:left;
+    clear:right;
+    margin-left: 5px;
+}
+    
+.imgreview2 {
+    width: 50%;
+    height: 50%;
+    border-radius:50%;
+    clear:left;
+    float:right;
+    margin-right: 5px;
+}
+
+.reviewtxt{
+    font-size: 17px;
+    margin:0;
+}
+
+.dienstenimg{
+    width: 95%;
+    margin-top: 20px;
+}
+
+.dienstenimg2{
+    width: 95%;
+    margin-top: 20px;
+}
+
+#team{
+text-align:right;
+margin-right:15px;
+margin-bottom:0;
+}
+
+h4{
+    font-size: 28px;
+    margin:0;
+    padding-top:15px;
+   }
+
+h5{
+    margin:0;
+    font-size: 16px;
+    font-style:italic;
+    }
+
+.profielfoto{
+    width:50%;
+    border-radius:50%;
+    margin-left:5px;
+    float:left;
+    border: 2px solid lightgrey;
+}
+
+#profielfoto2{
+    float: right;
+}
+#bio{
+   clear:both;
+   text-align:left;
+   margin-left: 15px;
+   padding-bottom: 25px;
+}
+
+.titel2{
+    text-align:left;
+    margin-left: 15px;
+}
+
+.medewerker{
+    margin-bottom: 50px;
+}
+
+#contactgegevens{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding: 2% 0 15% 15%;
+ }
+
+.icons{
+    width:30px; 
+    float:left;
+}
+
+.contactformulier{
+    background-color: lightgrey;
+    width: 80%;
+    margin:auto;
+    margin-top: -50px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+form{
+    padding: 5% 10% 10% 10%;
+    line-height: 35px;
+    }
+
+form label{
+    display:block;
+    text-align:left;
+}
+
+form input{
+    display:block;
+    width:100%;
+    height: 30px;
+}
+
+form textarea{
+    display:block;
+    width: 100%;
+    height: 100px;
+}
+
+.button{
+    background-color:rgb(24, 62, 100);
+    color:white;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+footer{
+    clear:both;
+    background-color:rgb(24, 62, 100);
+    color: white;
+    padding-top: 10px;
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+footer p{
+    margin:0;
+    padding-top: 5%;
+}
+#borderless{
+    margin:0;
+}
+
+
+/*****
+--------------------------MEDIA QUERIES----------------
+*****/
+
+@media (min-width: 1024px){
+
+body{
+    font-size: 26px;
+    margin: 150px 0px 0px 0px ;
+}
+
+header{
+    margin-bottom:150px;
+    }
+
+h1 {
+    margin:0;
+    font-size: 72px;
+}
+
+h2{
+    font-size:48px;
+}
+
+h3{
+    font-size:32px;
+}
+
+
+.tekst{
+    width:75%;
+    margin:auto;
+}
+
+.logo{
+    margin-left: 20px;
+     padding-left: 100px;
+     padding-top: 50px;
+}
+
+.menu{
+    display:inline;
+    position:absolute;
+    right: 20px;
+    top: 200px;
+}
+
+.menu a{
+    display: inline; 
+    margin: 5px;
+}
+
+#selected{
+    border-bottom: 2px lightgrey solid;
+}
+
+.nav label{
+    display: none;
+}
+
+.banner{
+    background-size: 3000px;
+    background-position:center;
+    height: 350px; 
+    line-height: 300px;
+}
+
+.huis{
+    display: inline-block;
+    margin:1%;
+}
+    
+.imghuis{
+    width:325px;  
+       
+}
+    
+.adres{
+    font-size: 16px;
+    font-weight:bold;
+    line-height:0.2em;
+}
+    
+.prijs{
+    font-size: 24px;
+}
+
+.reviews {
+    margin-right: 200px;
+}
+
+.reviewtxt{
+    margin-top:10%;
+    margin-left: 50%;
+    font-size: 26px;
+}
+
+.reviewtxt2{
+    margin-top:10%;
+    margin-right: 50%;
+    font-size: 26px;
+}
+    
+.reviews2 {
+    margin-left: 200px;
+}
+    
+.imgreview {
+    width: 30%;
+    height: 30%;
+    margin-left: 150px;
+        }
+        
+.imgreview2 {
+    width: 30%;
+    height: 30%;
+    margin-right: 150px;
+}
+
+.diensten{
+    width: 75%;
+    margin:auto;
+}
+
+.dienstenimg{
+    width: 30%;
+    float:right;
+    margin: 80px 150px 50px 50px;
+}
+
+.dienstenimg2{
+    width: 30%;
+    float:left;
+    margin: 80px 100px 80px 150px;
+}
+
+.aankoop{
+    margin-top: 150px;
+    text-align:left;
+}
+
+.verkoop{
+   text-align:right;
+   padding:50px;
+   margin-bottom:50px;
+}      
+
+#sec2{
+    padding-bottom: 100px;
+}
+#sec3{
+    clear:both;
+}
+
+#team{
+    margin-right:200px;
+    margin-bottom:0;
+    }
+    
+    h4{
+        font-size: 54px;
+    }
+    
+    h5{
+        font-size: 28px;
+    }
+    
+    .profielfoto{
+        width:25%;
+        margin-left:150px;
+        border: 5px solid lightgrey;
+    }
+    
+    #profielfoto2{
+        width: 30%;
+        float: right;
+        margin-right: 150px;
+    }
+    #bio{
+        float:right;
+        width: 50%;
+       text-align:left;
+       margin-left: 15px;
+       margin-right: 150px;
+       padding-bottom: 100px;
+    }
+
+    #bio2{
+        text-align:left;
+        margin-left:150px;
+    }
+    
+    .titel2{
+        margin-left: 150px;
+    }
+    
+    .medewerker2{
+        clear:both;
+        margin: 50px 150px;
+        margin-bottom: 50px;
+        margin-left: 150px;
+    }
+
+#contactgegevens{
+    padding-bottom: 10%;
+}
+
+.contactformulier{
+   width: 30%;
+   position:absolute;
+   top:400px;
+   right: 150px;
+   font-size:20px;
+}
+
+.contactformulier h4{
+    font-size:30px;
+}
+
+.button{
+    font-size: 20px;
+    height: 50px;
+}
+    
+footer{
+    padding-top: 50px;
+    font-size: 18px;
+    margin-top: 50px;
+    }
+
+footer a{
+margin-right: 10px;
+}    
+
+footer p{
+    margin:0;
+    padding: 2%;
+    }
+    
+
+}
