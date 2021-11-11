@@ -1,0 +1,66 @@
+.blue-background {
+        background-color: blue;
+        }
+    
+.red-background {
+        background-color: red;
+        }
+    
+.menu-collapsed{
+        display:none;
+    }
+    
+.menu-expanded{
+        display:block;
+    }
+    
+#ulMenu {
+        list-style: none;
+        background-color:whitesmoke ;
+        margin-left:150px; 
+        padding: 0;
+    }
+
+#menuSection{
+    width: 20%;
+    margin:10px 10px 10px 150px;
+
+}
+    
+#hamburger {
+    width: 100px;
+    margin: 10px 10px 10px 150px;
+}
+
+.menuItem{
+    font-size:32px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#liRood:hover{
+background-color:red;
+}
+
+#liBlauw:hover{
+    background-color:blue;
+}
+
+#liGroen:hover{
+    background-color:green;
+}
+
+#liGeel:hover{
+    background-color:yellow;
+}
+
+#liPaars:hover{
+    background-color:purple;
+}
+
+#colorText{
+    font-size: 64px;
+    text-align: center;
+    margin-top: 10%;
+    }
